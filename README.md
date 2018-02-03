@@ -28,7 +28,7 @@
 | Column Name   | Data Type     | Details |
 | ------------- |:-------------:| -----:  |
 | id            | integer       | not null, primary key |
-| state_id      | integer       | not null |
+| property_id   | integer       | not null |
 | text          | integer       | not null |
 | action        | integer       | optional |
 | flow          | integer       | optional |
