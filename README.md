@@ -8,7 +8,6 @@
 | ------------- |:-------------:| -----:  |
 | id            | integer       | not null, primary key |
 | name          | string        | not null |
-| component     | string        | not null |
 
 ### State
 
@@ -16,6 +15,7 @@
 | ------------- |:-------------:| -----:  |
 | id            | integer       | not null, primary key |
 | flow_id       | integer       | not null |
+| component     | string        | not null |
 | return        | boolean       | default: false |
 | name          | string        | not null |
 | flow          | string        | optional |
