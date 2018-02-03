@@ -8,6 +8,7 @@
 | ------------- |:-------------:| -----:  |
 | id            | integer       | not null, primary key |
 | name          | string        | not null |
+| component     | string        | not null |
 
 ### State
 
