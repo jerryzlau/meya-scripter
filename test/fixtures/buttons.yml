@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: buttons
+#
+#  id            :integer          not null, primary key
+#  property_id   :integer          not null
+#  flow_id       :integer
+#  transition_id :string
+#  text          :string           not null
+#  url           :string
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  integer: 
+  integer: 
+  string: MyText
+  string: 
+  string: 
+
+two:
+  integer: 
+  integer: 
+  string: MyText
+  string: 
+  string: 

@@ -1,0 +1,29 @@
+# == Schema Information
+#
+# Table name: states
+#
+#  id         :integer          not null, primary key
+#  flow_id    :integer          not null
+#  component  :string
+#  return     :boolean
+#  name       :string           not null
+#  image_url  :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  integer: 
+  integer: 
+  boolean: 
+  string: 
+  string: 
+
+two:
+  integer: 
+  integer: 
+  boolean: 
+  string: 
+  string: 

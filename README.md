@@ -18,22 +18,20 @@
 | component     | string        | not null |
 | return        | boolean       | default: false |
 | name          | string        | not null |
-| flow          | string        | optional |
-| component     | string        | optional |
-| text          | string        | optional |
 | image_url     | string        | optional |
 
-### Buttons
+### Button
 
 | Column Name   | Data Type     | Details |
 | ------------- |:-------------:| -----:  |
 | id            | integer       | not null, primary key |
-| property_id   | integer       | not null |
-| text          | integer       | not null |
-| action        | integer       | optional |
-| flow          | integer       | optional |
+| property_id   | integer       | not null | 
+| flow_id       | integer       | optional | <!-- flow -->
+| transition_id | string        | not null | <!-- action -->
+| text          | string        | not null |
+| url           | string        | not null |
 
-### Properties
+### Property
 
 | Column Name   | Data Type     | Details |
 | ------------- |:-------------:| -----:  |
