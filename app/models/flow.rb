@@ -10,6 +10,8 @@
 
 class Flow < ApplicationRecord
 
+  validates :name, uniqueness: true
+
   has_many :states,
   primary_key: :id,
   foreign_key: :flow_id,
